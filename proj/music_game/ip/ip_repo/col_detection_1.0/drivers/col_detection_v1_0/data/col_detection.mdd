@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER col_detection
+	OPTION supported_peripherals = (col_detection);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = col_detection;
+END DRIVER

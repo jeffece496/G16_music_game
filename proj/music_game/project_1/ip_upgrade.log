@@ -1,0 +1,44 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+| Date         : Wed Apr 12 16:24:36 2017
+| Host         : HomeStation running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ov7670_top_0_2'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_ov7670_top_0_2 (xilinx.com:user:ov7670_top:1.0) from (Rev. 3) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_ov7670_top_0_2'.
+
+
+-Upgrade has removed interface 'aclk'
+
+-Upgrade has removed interface 'reset'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_ov7670_top_0_2'. These changes may impact your design.
+
+
+-Upgrade has removed port 'aclk'
+
+-Upgrade has removed port 'reset'
+
+-Upgrade has added port 'a_clk'
+
+-Upgrade has added port 'cam_reset'
+
+
